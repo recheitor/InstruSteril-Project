@@ -1,0 +1,279 @@
+.nav {
+    position: fixed;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    z-index: 9;
+    overflow: hidden;
+}
+
+
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.nav-title img {
+    width: 80px;
+}
+
+.nav-title h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    color: #4685e5;
+    font-size: 30px;
+}
+
+.nav-title span {
+    color: #3a3a3a;
+    font-weight: 700;
+}
+
+.nav-lg::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100vw 200px 0;
+    z-index: -1;
+    opacity: 0.2;
+    border-color: transparent #5c93f8 transparent transparent;
+}
+
+.nav-lg::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    opacity: 0.5;
+    border-width: 150px 60vw 60vw 0;
+    z-index: -2;
+    border-color: #7caaff transparent transparent transparent;
+
+
+}
+
+
+
+.nav-lg a {
+    text-decoration: none;
+}
+
+.nav-sections {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    position: relative;
+}
+
+.nav-sections a {
+    color: rgb(25, 44, 190);
+    position: relative;
+    transition: color 0.3s;
+}
+
+/*--------underline color when hover over the menu-lg -----------*/
+.nav-sections a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0b265c;
+    transition: width 0.3s;
+}
+
+.nav-sections a:hover::before {
+    width: 100%;
+}
+
+/*--------word color when hover over the menu-lg -----------*/
+.nav-sections a:hover {
+    color: #16051b;
+}
+
+.nav,
+.nav-label {
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+
+    .menu-icon:checked~.nav ul li:nth-child(1) {
+        transition-delay: 00ms;
+    }
+
+    .menu-icon:checked~.nav ul li:nth-child(2) {
+        transition-delay: 80ms;
+    }
+
+    .menu-icon:checked~.nav ul li:nth-child(3) {
+        transition-delay: 160ms;
+    }
+
+    .menu-icon:checked~.nav ul li:nth-child(4) {
+        transition-delay: 240ms;
+    }
+
+
+    /* Modificar aqui icono menu----------------------*/
+    .menu-icon+label {
+        position: fixed;
+        top: 30px;
+        left: 30px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        z-index: 200;
+        background-size: contain;
+        background-image: url("https://res.cloudinary.com/dbtmrinwa/image/upload/v1697316460/og3mzxjxmvvj6uqmxuka.png");
+        transition: background-image 0.3s ease;
+    }
+
+
+    /* Modificar aqui icono menu después de apretar----------------------*/
+    .menu-icon:checked+label {
+        background-image: url("https://res.cloudinary.com/dbtmrinwa/image/upload/v1697316460/rt9uinf6zksv2xd8glqx.png");
+    }
+
+
+
+    /* Modificar aqui para la animación del menú hacía el centro de la pantalla----------------------*/
+    .menu-icon:checked~.nav {
+        top: 30%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        width: 200vw;
+        height: 200vh;
+    }
+
+    /* fondo difuminado y transparente----------------------*/
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(173, 201, 254, 0.5), rgba(206, 223, 255, 1) 70%);
+        backdrop-filter: blur(2px);
+        z-index: 1;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+    }
+
+    .menu-icon:checked~.overlay {
+        opacity: 0.9;
+        pointer-events: auto;
+    }
+
+
+    .nav ul {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: 200;
+        text-align: center;
+        transform: translateY(-50%);
+        list-style: none;
+    }
+
+    .nav ul li {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 10px 0;
+        text-align: center;
+        list-style: none;
+        pointer-events: none;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(30px);
+    }
+
+    .nav ul li a {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 4vh;
+        text-transform: uppercase;
+        line-height: 1.2;
+        font-weight: 600;
+        display: inline-block;
+        position: relative;
+        color: rgb(25, 44, 190);
+        transition: all 250ms linear;
+    }
+
+    .nav ul li a:hover {
+        text-decoration: none;
+        color: #958fd8;
+    }
+
+    .nav ul li a:after {
+        display: block;
+        position: absolute;
+        top: 50%;
+        content: '';
+        height: 1vh;
+        margin-top: 1.2vh;
+        width: 0;
+        left: 0;
+        background-color: #47485b;
+        opacity: 0.8;
+        transition: width 250ms linear;
+    }
+
+
+    .menu-icon:checked~.nav ul li {
+        pointer-events: auto;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 350ms ease, transform 250ms ease;
+    }
+
+    .nav-title h3 {
+        font-size: 20px;
+    }
+
+    .nav-title {
+        justify-content: end;
+        padding-right: 20px !important;
+    }
+
+
+
+    .nav-sections {
+        visibility: hidden;
+        display: none;
+    }
+
+    .nav,
+    .nav-label {
+        visibility: visible;
+        display: visible;
+    }
+
+
+
+
+
+}

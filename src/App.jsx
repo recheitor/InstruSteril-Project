@@ -1,4 +1,3 @@
-
 import { Container } from 'react-bootstrap'
 import './App.css'
 import Navigation from './components/Navigation/Navigation'
@@ -9,15 +8,15 @@ function App() {
 
   return (
     <>
-
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;800&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500;700&display=swap" rel="stylesheet" />
+
       <Navigation />
-      <Container>
-        <AppRoutes />
-      </Container>
+      <AppRoutes />
       <Footer />
+
+
     </>
   )
 }
