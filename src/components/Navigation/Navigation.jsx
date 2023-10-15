@@ -1,4 +1,4 @@
-import { Col, Row, } from 'react-bootstrap'
+import { Col, Container, Row, } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Navigation.css'
 import { useState } from 'react'
@@ -11,27 +11,40 @@ const Navigation = () => {
         setIsMenuOpen(false);
     };
 
+
+    window.addEventListener('scroll', function () {
+        const scrollY = window.scrollY;
+        const targetElement = document.getElementById('hero');
+
+        if (scrollY > 40) {
+            targetElement.classList.add('scrolled-down');
+        } else {
+            targetElement.classList.remove('scrolled-down');
+        }
+    });
+
+
+
     return (
         <>
-            <Row className='nav-lg justify-content-between align-items-center pt-2'>
-                <Col xs='12' lg='3' className='nav-title d-flex ps-4' >
-                    <div className='text-center'>
-                        <Link to="/">
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697307692/uzu2gdul3daxcgotqi5o.png" alt="" />
-                            <h3><span>INSTRU</span>STERIL</h3>
-                        </Link>
-                    </div>
-                </Col>
-                <Col lg='6' className='nav-sections '>
-                    <Link className='me-3' to="/sobre-nosotros">QUIENES SOMOS</Link>
-                    <Link className='me-3 ms-3' to="/servicios">SERVICIOS</Link>
-                    <Link className='me-3 ms-3' to="/tarifas">TARIFAS</Link>
-                    <Link className='ms-3' to="/contacto">CONTACTO</Link>
-                </Col>
-
-
-            </Row >
-
+            <Container className='nav-lg' id='hero'>
+                <Row className='align-items-center pt-2'>
+                    <Col xs='12' lg='3' className='nav-title d-flex ps-4' >
+                        <div className='text-center'>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697307692/uzu2gdul3daxcgotqi5o.png" alt="" />
+                                <h3><span>INSTRU</span>STERIL</h3>
+                            </a>
+                        </div>
+                    </Col>
+                    <Col lg='9' className='nav-sections text-end pe-5'>
+                        <a className='me-3 ms-3' href="#servicios">SERVICIOS</a>
+                        <a className='me-3' href="#sobre-nosotros">QUIENES SOMOS</a>
+                        <a className='me-3 ms-3' href="#tarifas">TARIFAS</a>
+                        <a className='ms-3' href="#contacto">CONTACTO</a>
+                    </Col>
+                </Row >
+            </Container >
 
             <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" checked={isMenuOpen}
                 onChange={() => setIsMenuOpen(!isMenuOpen)} />
@@ -39,37 +52,37 @@ const Navigation = () => {
 
             <nav className="nav">
                 <ul>
-                    <li>  <Link to="/sobre-nosotros"
-                        style={{ textDecoration: 'none' }}
-                        onClick={closeMenu}
-                    >
-                        QUIENES SOMOS
-                    </Link>
-                    </li>
                     <li>
-                        <Link to="/servicios"
+                        <a href="#servicios"
                             style={{ textDecoration: 'none' }}
                             onClick={closeMenu}
                         >
                             SERVICIOS
-                        </Link>
+                        </a>
+                    </li>
+                    <li>  <a href="#sobre-nosotros"
+                        style={{ textDecoration: 'none' }}
+                        onClick={closeMenu}
+                    >
+                        QUIENES SOMOS
+                    </a>
                     </li>
 
                     <li>
-                        <Link to="/tarifas"
+                        <a href="#tarifas"
                             style={{ textDecoration: 'none' }}
                             onClick={closeMenu}
                         >
                             TARIFAS
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="/contacto"
+                        <a href="#contacto"
                             style={{ textDecoration: 'none' }}
                             onClick={closeMenu}
                         >
                             CONTACTO
-                        </Link>
+                        </a>
                     </li>
 
                 </ul>

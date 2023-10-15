@@ -1,15 +1,3 @@
-.nav {
-    position: fixed;
-    display: block;
-    width: 80px;
-    height: 80px;
-    padding: 0;
-    margin: 0;
-    z-index: 9;
-    overflow: hidden;
-}
-
-
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
     position: absolute;
@@ -27,10 +15,18 @@
     font-size: 30px;
 }
 
+
 .nav-title span {
     color: #3a3a3a;
     font-weight: 700;
 }
+
+.nav-lg {
+    position: fixed;
+    z-index: 1;
+
+}
+
 
 .nav-lg::before {
     content: "";
@@ -42,8 +38,8 @@
     border-style: solid;
     border-width: 0 100vw 200px 0;
     z-index: -1;
-    opacity: 0.2;
-    border-color: transparent #5c93f8 transparent transparent;
+    opacity: 1;
+    border-color: transparent rgba(92, 147, 248, 0.8) transparent transparent;
 }
 
 .nav-lg::after {
@@ -52,14 +48,12 @@
     top: 0;
     left: 0;
     width: 0;
-    height: 0;
+    height: 0px;
     border-style: solid;
-    opacity: 0.5;
-    border-width: 150px 60vw 60vw 0;
+    opacity: 1;
+    border-width: 150px 60vw 0 0;
     z-index: -2;
-    border-color: #7caaff transparent transparent transparent;
-
-
+    border-color: rgba(174, 201, 252, 0.8) transparent transparent transparent;
 }
 
 
@@ -68,11 +62,13 @@
     text-decoration: none;
 }
 
+
 .nav-sections {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 24px;
-    position: relative;
+    position: fixed;
+    right: 0;
 }
 
 .nav-sections a {
@@ -108,6 +104,16 @@
     display: none;
 }
 
+.scrolled-down a,
+.scrolled-down span,
+.scrolled-down h3 {
+    color: #fff;
+}
+
+.scrolled-down img {
+    filter: brightness(100);
+}
+
 @media screen and (max-width: 991px) {
 
     .menu-icon:checked~.nav ul li:nth-child(1) {
@@ -130,7 +136,7 @@
     /* Modificar aqui icono menu----------------------*/
     .menu-icon+label {
         position: fixed;
-        top: 30px;
+        top: 60px;
         left: 30px;
         display: block;
         width: 20px;
@@ -154,6 +160,15 @@
 
     /* Modificar aqui para la animación del menú hacía el centro de la pantalla----------------------*/
     .menu-icon:checked~.nav {
+
+        position: fixed;
+        display: block;
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        margin: 0;
+        z-index: 9;
+        overflow: hidden;
         top: 30%;
         right: 50%;
         transform: translate(50%, -50%);
@@ -272,6 +287,15 @@
         display: visible;
     }
 
+    .nav-lg::after {
+
+        border-color: rgba(92, 147, 248, 0.8) transparent transparent transparent;
+    }
+
+    .nav-lg::before {
+
+        border-color: transparent rgba(174, 201, 252, 0.8) transparent transparent;
+    }
 
 
 
