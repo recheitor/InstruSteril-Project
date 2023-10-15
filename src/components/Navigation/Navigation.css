@@ -200,7 +200,7 @@
     .nav ul {
         position: absolute;
         top: 50%;
-        left: 0;
+        left: -100vw;
         display: block;
         width: 100%;
         padding: 0;
@@ -265,6 +265,10 @@
         transition: opacity 350ms ease, transform 250ms ease;
     }
 
+    .menu-icon:checked~.nav ul {
+        left: 0;
+    }
+
     .nav-title h3 {
         font-size: 20px;
     }
@@ -288,12 +292,30 @@
     }
 
     .nav-lg::after {
-
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0px;
+        border-style: solid;
+        opacity: 1;
+        border-width: 150px 60vw 0 0;
+        z-index: -2;
         border-color: rgba(92, 147, 248, 0.8) transparent transparent transparent;
     }
 
     .nav-lg::before {
-
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 100vw 200px 0;
+        z-index: -1;
+        opacity: 1;
         border-color: transparent rgba(174, 201, 252, 0.8) transparent transparent;
     }
 
