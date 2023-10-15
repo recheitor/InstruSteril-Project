@@ -16,7 +16,7 @@ const PriceRate = () => {
                             <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697387885/qtf0gk16ogwz8p1f82vd.png" alt="" />
                         </Col>
                         <Col lg='6' xs='12'>
-                            <h2>TARIFA INTRUSTERIL</h2>
+                            <h2>TARIFA INSTRUSTERIL</h2>
                             <p>30€</p>
                             <h3>El precio esta estipulado por servicio
                                 puesto que depende de la actividad
