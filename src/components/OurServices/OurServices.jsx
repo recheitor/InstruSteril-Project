@@ -28,10 +28,10 @@ const OurServices = () => {
                         </div>
                         <div className='services-text d-flex flex-column justify-content-center align-items-center'>
                             <h3>REVISIÓN Y REPOSICIÓN</h3>
-                            <p>Nos encargamos de revisar,
-                                en caso de deterioro,
-                                reponer y esterilizar el
-                                instrumental.</p>
+                            <p>Nos encargamos de revisar el instrumental
+                                en el proceso de lavado, si detectamos
+                                anomalías, podríamos reemplazar la pieza
+                                deteriorada, así siempre estaría el instrumental completo.</p>
                         </div>
                     </Col>
                     <Col xs='12' lg='5' className='text-center'>

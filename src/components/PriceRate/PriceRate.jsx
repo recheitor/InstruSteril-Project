@@ -5,19 +5,26 @@ const PriceRate = () => {
     return (
         <>
 
-            <div className='background-image-PriceRate'>
+            <div className='background-image-price-rate'>
                 <Container>
-                    <Row className='PriceRate justify-content-center'>
-                        <Col xs='12' lg='10' className='PriceRate-title text-center'>
-                            <h1>Tarifa InstruSteril</h1>
-                            <Row className='justify-content-center'>
-                                <Col lg='12' className='text-center m-3'>
-                                    <a className="custom-link" href='#servicios'>Nuestros Servicios</a>
-                                </Col>
-                                <Col lg='12' className='text-center'>
-                                    <Link className="custom-link" to='#'>Tarifas</Link>
-                                </Col>
-                            </Row>
+                    <Row className='price-rate justify-content-center'>
+                        <Col xs='12' lg='10' className='price-rate-title text-center'>
+                        </Col>
+
+
+                        <Col lg='6' xs='12' className='price-rate-img'>
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697387885/qtf0gk16ogwz8p1f82vd.png" alt="" />
+                        </Col>
+                        <Col lg='6' xs='12'>
+                            <h2>TARIFA INTRUSTERIL</h2>
+                            <p>30€</p>
+                            <h3>El precio esta estipulado por servicio
+                                puesto que depende de la actividad
+                                de nuestros clientes, a final de cada
+                                mes InstruSteril emite la factura
+                                correspondiente a los servicios
+                                realizados mensualmente.</h3>
+
                         </Col>
                     </Row>
                 </Container>
