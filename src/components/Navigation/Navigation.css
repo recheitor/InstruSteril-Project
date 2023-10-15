@@ -136,7 +136,7 @@
     /* Modificar aqui icono menu----------------------*/
     .menu-icon+label {
         position: fixed;
-        top: 60px;
+        top: 35px;
         left: 30px;
         display: block;
         width: 20px;
@@ -270,7 +270,7 @@
     }
 
     .nav-title h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .nav-title {
@@ -280,7 +280,7 @@
     }
 
     .nav-title img {
-        width: 70px;
+        width: 45px;
     }
 
     .nav-sections {
@@ -303,7 +303,7 @@
         height: 0px;
         border-style: solid;
         opacity: 1;
-        border-width: 150px 60vw 0 0;
+        border-width: 100px 60vw 0 0;
         z-index: -2;
         border-color: rgba(92, 147, 248, 0.8) transparent transparent transparent;
     }
@@ -316,7 +316,7 @@
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 0 100vw 200px 0;
+        border-width: 0 100vw 120px 0;
         z-index: -1;
         opacity: 1;
         border-color: transparent rgba(174, 201, 252, 0.8) transparent transparent;
