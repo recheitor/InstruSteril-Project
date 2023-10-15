@@ -9,24 +9,26 @@
 }
 
 .services-img img {
-    border: 1px solid rgb(255, 146, 155);
+    border: 1px solid rgb(255, 146, 155, 0.7);
     width: 20%;
     border-radius: 50%;
     padding: 3px;
     position: relative;
     transform: translateY(35%) translateX(-180%);
-    background: rgba(255, 205, 209, 0.9);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* background: rgba(255, 205, 209, 0.9); */
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .services-text {
-    border: 1px solid rgb(255, 146, 155, 0.8);
-    background: linear-gradient(to right, rgba(255, 185, 191, 0.3), rgba(255, 218, 221, 0.3) 70%);
+    border: 1px solid rgb(255, 146, 155, 0.6);
+    /* background: linear-gradient(to right, rgba(255, 185, 191, 0.3), rgba(255, 218, 221, 0.3) 70%); */
+    background: white;
     color: black;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     height: 250px;
 }
 
