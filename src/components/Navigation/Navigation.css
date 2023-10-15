@@ -275,10 +275,12 @@
 
     .nav-title {
         justify-content: end;
-        padding-right: 20px !important;
+        padding-right: 10px !important;
     }
 
-
+    .nav-title img {
+        width: 70px;
+    }
 
     .nav-sections {
         visibility: hidden;
