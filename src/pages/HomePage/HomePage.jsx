@@ -6,7 +6,9 @@ import OurServices from '../../components/OurServices/OurServices'
 const HomePage = () => {
     return (
         <>
-            <Hero />
+            <div id='hero'>
+                <Hero />
+            </div>
 
             <div id='servicios'>
                 <OurServices />

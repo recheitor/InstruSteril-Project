@@ -12,24 +12,26 @@ const Navigation = () => {
     };
 
 
-    window.addEventListener('scroll', function () {
-        const scrollY = window.scrollY;
-        const targetElement = document.getElementById('hero');
+    // window.addEventListener('scroll', function () {
+    //     const scrollY = window.scrollY;
+    //     const targetElement = document.getElementById('hero');
 
-        if (scrollY > 40) {
-            targetElement.classList.add('scrolled-down');
-        } else {
-            targetElement.classList.remove('scrolled-down');
-        }
-    });
+    //     if (scrollY > 40) {
+    //         targetElement.classList.add('scrolled-down');
+    //     } else {
+    //         targetElement.classList.remove('scrolled-down');
+    //     }
+    // });
 
 
 
     return (
         <>
-            <Container className='nav-lg' id='hero'>
+
+
+            {/* <Container className='nav-lg custom-container' id='hero'>
                 <Row className='align-items-center pt-2'>
-                    <Col xs='12' lg='3' className='nav-title d-flex ps-4' >
+                    <Col xs='12' lg='12' className='nav-title d-flex ps-4' >
                         <div className='text-center'>
                             <a href="#">
                                 <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697307692/uzu2gdul3daxcgotqi5o.png" alt="" />
@@ -44,7 +46,19 @@ const Navigation = () => {
                         <a className='ms-3' href="#contacto">CONTACTO</a>
                     </Col>
                 </Row >
-            </Container >
+            </Container > */}
+
+            <Row className='navi justify-content-between align-items-center'>
+                <Col xs='2' lg='3' className='text-start' >
+                    <div className='nav-head'>
+                        <a href="#">
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697307692/uzu2gdul3daxcgotqi5o.png" alt="" />
+                        </a>
+                    </div>
+                </Col>
+
+
+            </Row >
 
             <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" checked={isMenuOpen}
                 onChange={() => setIsMenuOpen(!isMenuOpen)} />

@@ -1,14 +1,5 @@
-.background-image-hero {
-    background: url("https://res.cloudinary.com/dbtmrinwa/image/upload/v1697316900/t7zngvn1iwu1hdjw012o.jpg") center/cover no-repeat;
-    margin-top: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-
 .hero {
-    padding-top: 70px;
     padding-bottom: 70px;
-
 }
 
 
@@ -16,7 +7,6 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 60px;
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
 }
 
 .hero-title {
@@ -24,59 +14,48 @@
     padding-top: 50px;
     padding-bottom: 100px;
     position: relative;
-    z-index: 0;
-    background-color: rgba(70, 70, 70, 0.5);
+    z-index: -1;
+    background-color: rgba(216, 216, 216, 0.5);
     backdrop-filter: blur(3px);
 }
 
-.custom-link {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    display: inline-block;
-    background: white;
-    border-radius: 50px;
-    padding: 10px 40px;
-    margin: 10px;
-    text-decoration: none;
-    color: #333;
-    transition: background 0.3s ease, color 0.3s ease;
+
+.hero-logo img {
+    width: 80px;
 }
 
-.custom-link:hover {
-    background: rgb(124, 144, 255);
-    color: white;
+.hero-logo h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.hero-logo a {
+    text-decoration: none;
+}
+
+
+.hero-logo span {
+    color: #3a3a3a;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
-    .background-image-hero {
-        background: url("https://res.cloudinary.com/dbtmrinwa/image/upload/v1697316900/t7zngvn1iwu1hdjw012o.jpg") center/cover no-repeat;
-        margin-top: 150px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    }
+
 
     .hero {
         padding-bottom: 0px;
-        padding-top: 0px;
+        padding-top: 30px;
     }
 
     .hero-title h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .hero-title {
-        background-color: rgba(0, 0, 0, 0.0);
-        backdrop-filter: blur(2px);
-    }
+        padding-top: 30px;
+        padding-bottom: 20px;
 
-    .custom-link {
-        font-size: 18px;
-        display: inline-block;
-        background-color: white;
-        border-radius: 50px;
-        padding: 8px 30px;
-        margin: 2px;
-        text-decoration: none;
-        color: #333;
     }
 
 
