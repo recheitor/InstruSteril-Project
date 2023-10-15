@@ -274,7 +274,7 @@
     }
 
     .nav-title {
-        justify-content: end;
+        justify-content: start;
         padding-right: 10px !important;
     }
 
