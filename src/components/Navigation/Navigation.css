@@ -274,8 +274,9 @@
     }
 
     .nav-title {
-        justify-content: start;
-        padding-right: 10px !important;
+        position: fixed;
+        top: 10px;
+        justify-content: end;
     }
 
     .nav-title img {
