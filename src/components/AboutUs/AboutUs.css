@@ -1,8 +1,11 @@
 .about-us {
     font-family: 'Josefin Sans', sans-serif;
+    box-shadow: -5px 0px 30px rgba(146, 146, 146, 0.6);
+    border-radius: 20px;
+    background-color: white;
 }
 
-.about-us h2 {
+.about-us h3 {
     font-size: 40px;
     padding-top: 80px;
     padding-left: 30px;
@@ -10,18 +13,12 @@
     color: rgb(29, 29, 29);
 }
 
-.about-us h3 {
-    font-size: 30px;
+.about-us p {
+    font-size: 25px;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     color: rgb(59, 59, 59);
-}
-
-.about-us {
-    box-shadow: -5px 0px 30px rgba(146, 146, 146, 0.6);
-    border-radius: 20px;
-    background-color: white;
 }
 
 .about-us img {
@@ -38,7 +35,7 @@
 
 @media screen and (max-width: 991px) {
 
-    .about-us h2 {
+    .about-us h3 {
         font-size: 20px;
         padding-top: 30px;
         padding-left: 0px;
@@ -46,7 +43,7 @@
         text-align: center;
     }
 
-    .about-us h3 {
+    .about-us p {
         font-size: 17px;
         padding-top: 0px;
         padding-left: 0px;

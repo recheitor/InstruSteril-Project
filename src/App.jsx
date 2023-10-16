@@ -8,14 +8,27 @@ function App() {
 
   return (
     <>
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" />
-      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500;700&display=swap" rel="stylesheet" />
-      <Navigation />
-      <AppRoutes />
-      <Footer />
-
-
+      <link rel="preconnect" href="https://fonts.googleapis.com" aria-hidden="true" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" aria-hidden="true" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500;700&display=swap"
+        rel="stylesheet"
+        as="style"
+        media="print"
+        onload="this.onload=null;this.rel='stylesheet'"
+        role="style"
+        aria-label="Fonts for the website"
+        crossOrigin="anonymous"
+      />
+      <nav>
+        <Navigation aria-label="Main navigation" />
+      </nav>
+      <main>
+        <AppRoutes role="region" aria-label="Main content" />
+      </main>
+      <footer>
+        <Footer role="contentinfo" />
+      </footer>
     </>
   )
 }

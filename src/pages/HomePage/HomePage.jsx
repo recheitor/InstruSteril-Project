@@ -8,23 +8,24 @@ import Contact from '../../components/Contact/Contact'
 const HomePage = () => {
     return (
         <>
-            <div id='hero'>
-                <Hero />
-            </div>
+            <main>
+                <section id="hero" aria-label="Hero Section">
+                    <Hero />
+                </section>
+                <section id="servicios" aria-label="Services Section">
+                    <OurServices />
+                </section>
+                <section id="sobre-nosotros" aria-label="About Us Section">
+                    <AboutUs />
+                </section>
+                <section id="tarifas" aria-label="Price Rates Section">
+                    <PriceRate />
+                </section>
+                <section id="contacto" aria-label="Contact Section">
+                    <Contact />
+                </section>
+            </main>
 
-            <div id='servicios'>
-                <OurServices />
-            </div>
-            <div id='sobre-nosotros'>
-                <AboutUs />
-            </div>
-            <div id='tarifas'>
-                <PriceRate />
-            </div>
-
-            <div id='contacto'>
-                <Contact />
-            </div>
         </>
     )
 }

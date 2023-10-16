@@ -1,42 +1,32 @@
 .price-rate {
     font-family: 'Josefin Sans', sans-serif;
+    box-shadow: -5px 0px 30px rgba(146, 146, 146, 0.6);
+    border-radius: 20px;
+    background-color: white;
 }
 
-.price-rate h2 {
+.price-rate h3 {
     font-size: 40px;
-    padding-top: 120px;
+    padding-top: 130px;
     padding-left: 30px;
     font-weight: 700;
     color: rgb(29, 29, 29);
 }
 
-.price-rate p {
-    font-size: 50px;
-    padding-top: 20px;
-    padding-left: 50px;
-    font-weight: 700;
-    color: rgb(18, 7, 122);
-}
-
 .price-rate h4 {
-    font-size: 20px;
-    padding-left: 50px;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
     font-weight: 700;
-    color: rgb(18, 7, 122);
+    color: rgb(17, 55, 137);
 }
 
-.price-rate h3 {
-    font-size: 30px;
+.price-rate p {
+    font-size: 25px;
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     color: rgb(59, 59, 59);
-}
-
-.price-rate {
-    box-shadow: -5px 0px 30px rgba(146, 146, 146, 0.6);
-    border-radius: 20px;
-    background-color: white;
 }
 
 .price-rate img {
@@ -53,7 +43,7 @@
 
 @media screen and (max-width: 991px) {
 
-    .price-rate h2 {
+    .price-rate h3 {
         font-size: 20px;
         padding-top: 30px;
         padding-left: 0px;
@@ -61,7 +51,7 @@
         text-align: center;
     }
 
-    .price-rate h3 {
+    .price-rate p {
         font-size: 17px;
         padding-top: 0px;
         padding-left: 0px;
@@ -70,16 +60,12 @@
         text-align: center;
     }
 
-    .price-rate p {
-        font-size: 50px;
-        padding-top: 00px;
-        padding-left: 0px;
-        padding-right: 0px;
-        color: rgb(18, 7, 122);
-        margin-bottom: 0px;
+    .price-rate h4 {
+        font-size: 40px;
         text-align: center;
+        font-weight: 700;
+        color: rgb(17, 55, 137);
     }
-
 
     .price-rate img {
         width: 100%;
@@ -91,15 +77,6 @@
     .price-rate {
         padding: 0 !important;
         margin: 0 !important
-    }
-
-    .price-rate h4 {
-        font-size: 16px;
-        text-align: center;
-        padding-left: 0px;
-        padding-bottom: 12px;
-        font-weight: 700;
-        color: rgb(18, 7, 122);
     }
 
 }

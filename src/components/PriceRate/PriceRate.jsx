@@ -4,35 +4,29 @@ import { Link } from 'react-router-dom'
 const PriceRate = () => {
     return (
         <>
-
-            <div className='background-image-price-rate'>
-                <Container>
-                    <Row className='price-rate justify-content-center'>
-                        <Col xs='12' lg='10' className='price-rate-title text-center'>
+            <Container>
+                <section id="price-rate" aria-label="Price rate Section">
+                    <Row className="price-rate justify-content-center">
+                        <Col lg="6" xs="12" className="price-rate-img">
+                            <img
+                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697453845/p77nw2wqxyapbegxy5ja.png"
+                                alt="Image of medical instruments"
+                                role="img"
+                            />
                         </Col>
-
-
-                        <Col lg='6' xs='12' className='price-rate-img'>
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697453845/p77nw2wqxyapbegxy5ja.png" alt="" />
-                        </Col>
-                        <Col lg='6' xs='12'>
-                            <h2>TARIFA INSTRUSTERIL</h2>
-                            <p>30€</p>
-                            <h4>Al final de cada mes</h4>
-                            <h3>El precio esta estipulado por servicio
+                        <Col lg="6" xs="12">
+                            <h3>TARIFA INSTRUSTERIL</h3>
+                            <h4>30€</h4>
+                            <p>El precio esta estipulado por servicio
                                 puesto que depende de la actividad
                                 de nuestros clientes, a final de cada
                                 mes InstruSteril emite la factura
                                 correspondiente a los servicios
-                                realizados mensualmente.</h3>
-
+                                realizados mensualmente.</p>
                         </Col>
                     </Row>
-                </Container>
-            </div>
-
-
-
+                </section>
+            </Container>
         </>
     )
 }
