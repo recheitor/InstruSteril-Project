@@ -5,22 +5,20 @@ const Hero = () => {
     return (
         <>
 
-            <Container>
-                <Row className='hero justify-content-center'>
-                    <Col xs='11' lg='10' className='hero-title text-center'>
-                        <h1>Esterilización y reposición</h1>
-                        <h1>de instrumental quirúrgico</h1>
-                        <Row className='hero-logo justify-content-center'>
-                            <div className='text-center'>
-                                <a href="#">
-                                    <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697307692/uzu2gdul3daxcgotqi5o.png" alt="" />
-                                    <h3><span>INSTRU</span>STERIL</h3>
-                                </a>
-                            </div>
-                        </Row>
-                    </Col>
-                </Row>
-            </Container>
+            <Row className='hero justify-content-center'>
+                <Col xs='11' lg='10' className='hero-title text-center'>
+                    <h1>Esterilización y reposición</h1>
+                    <h1>de instrumental quirúrgico</h1>
+                    <Row className='hero-logo justify-content-center'>
+                        <div className='text-center'>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697307692/uzu2gdul3daxcgotqi5o.png" alt="" />
+                                <h3><span>INSTRU</span>STERIL</h3>
+                            </a>
+                        </div>
+                    </Row>
+                </Col>
+            </Row>
 
 
 

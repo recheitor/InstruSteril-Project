@@ -16,34 +16,32 @@ const Contact = () => {
 
     return (
         <>
-            <Container fluid="xs">
 
-                <Row className='contact justify-content-center'>
+            <Row className='contact justify-content-center'>
 
-                    <Col xs='12' lg='12' className='contact-title text-center'>
+                <Col xs='12' lg='12' className='contact-title text-center'>
 
-                        <h1>Contacto</h1>
-                        <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697411333/ynpdtsaqljmrrf3iuuwh.png" alt="" />618 069 336</h2>
-                        <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697411333/sfqupboic0b9xzboktab.png" alt="" />info@instrusteril.es</h2>
+                    <h1>Contacto</h1>
+                    <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697411333/ynpdtsaqljmrrf3iuuwh.png" alt="" />618 069 336</h2>
+                    <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697411333/sfqupboic0b9xzboktab.png" alt="" />info@instrusteril.es</h2>
 
-                        <div>
-                            <button onClick={openModal} className="btn mt-4 ">
-                                <h3> ✉️ Contactar ahora</h3>
-                            </button>
+                    <div>
+                        <button onClick={openModal} className="btn mt-4 ">
+                            <h3> ✉️ Contactar ahora</h3>
+                        </button>
 
-                            <Modal centered show={showModal} onHide={closeModal} size="lg" >
-                                <Modal.Header closeButton >
-                                </Modal.Header>
-                                <Modal.Body >
-                                    <ContactForm />
-                                </Modal.Body>
-                            </Modal>
-                        </div>
-                    </Col>
-                </Row>
+                        <Modal centered show={showModal} onHide={closeModal} size="lg" >
+                            <Modal.Header closeButton >
+                            </Modal.Header>
+                            <Modal.Body >
+                                <ContactForm />
+                            </Modal.Body>
+                        </Modal>
+                    </div>
+                </Col>
+            </Row>
 
 
-            </Container >
 
 
         </>
