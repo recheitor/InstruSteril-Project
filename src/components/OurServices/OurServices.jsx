@@ -31,7 +31,7 @@ const OurServices = () => {
                             <p>Nos encargamos de revisar el instrumental
                                 en el proceso de lavado, si detectamos
                                 anomalías, podríamos reemplazar la pieza
-                                deteriorada, así siempre estaría el instrumental completo.</p>
+                                deteriorada. Así siempre estaría el instrumental completo.</p>
                         </div>
                     </Col>
                     <Col xs='12' lg='5' className='text-center'>
