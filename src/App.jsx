@@ -15,7 +15,6 @@ function App() {
         rel="stylesheet"
         as="style"
         media="print"
-        onload="this.onload=null;this.rel='stylesheet'"
         role="style"
         aria-label="Fonts for the website"
         crossOrigin="anonymous"
