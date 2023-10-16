@@ -14,11 +14,11 @@ const AboutUs = () => {
                         <h2>QUIENES SOMOS</h2>
                         <h3>Somos una empresa en Valencia, especializada
                             en la esterilización del instrumental quirúrgico
-                            empleado en las clínicas y consultas medicas.</h3>
-                        <h3>Ademas llevamos a cabo rigurosas revisiones y
+                            empleado en las clínicas y consultas médicas.</h3>
+                        <h3>Además llevamos a cabo rigurosas revisiones y
                             nos encargamos de reemplazar el instrumental
-                            deteriorado con el objetivo de asegurar una
-                            seguridad óptima.</h3>
+                            deteriorado con el objetivo de asegurar a nuestros
+                            clientes y a sus pacientes una seguridad y calidad óptima.</h3>
                     </Col>
                 </Row>
             </Container>

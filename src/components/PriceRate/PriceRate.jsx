@@ -13,11 +13,12 @@ const PriceRate = () => {
 
 
                         <Col lg='6' xs='12' className='price-rate-img'>
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697387885/qtf0gk16ogwz8p1f82vd.png" alt="" />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697453845/p77nw2wqxyapbegxy5ja.png" alt="" />
                         </Col>
                         <Col lg='6' xs='12'>
                             <h2>TARIFA INSTRUSTERIL</h2>
                             <p>30€</p>
+                            <h4>Al final de cada mes</h4>
                             <h3>El precio esta estipulado por servicio
                                 puesto que depende de la actividad
                                 de nuestros clientes, a final de cada

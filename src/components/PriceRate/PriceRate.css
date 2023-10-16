@@ -4,7 +4,7 @@
 
 .price-rate h2 {
     font-size: 40px;
-    padding-top: 160px;
+    padding-top: 120px;
     padding-left: 30px;
     font-weight: 700;
     color: rgb(29, 29, 29);
@@ -13,6 +13,13 @@
 .price-rate p {
     font-size: 50px;
     padding-top: 20px;
+    padding-left: 50px;
+    font-weight: 700;
+    color: rgb(18, 7, 122);
+}
+
+.price-rate h4 {
+    font-size: 20px;
     padding-left: 50px;
     font-weight: 700;
     color: rgb(18, 7, 122);
@@ -68,8 +75,8 @@
         padding-top: 00px;
         padding-left: 0px;
         padding-right: 0px;
-        padding-bottom: 0px;
         color: rgb(18, 7, 122);
+        margin-bottom: 0px;
         text-align: center;
     }
 
@@ -84,6 +91,15 @@
     .price-rate {
         padding: 0 !important;
         margin: 0 !important
+    }
+
+    .price-rate h4 {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+        padding-bottom: 12px;
+        font-weight: 700;
+        color: rgb(18, 7, 122);
     }
 
 }

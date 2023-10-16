@@ -41,7 +41,7 @@ const OurServices = () => {
                         <div className='services-text d-flex flex-column justify-content-center align-items-center'>
                             <h3>ESTERILIZADO Y
                                 EMPAQUETADO</h3>
-                            <p>El proceso de esterilizado
+                            <p>El proceso de esterilización
                                 se realiza con nuestro
                                 autoclave de calor húmedo,
                                 con etiquetado del proceso,
@@ -60,7 +60,7 @@ const OurServices = () => {
                                 clínica, se entrega en un paquete
                                 sellado e identificado y
                                 proporcionamos material para
-                                desechar el instrumental ya utilizado
+                                almacenar el instrumental ya utilizado
                                 y así tenerlo preparado para su
                                 próxima recogida.</p>
                         </div>
