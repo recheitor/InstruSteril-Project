@@ -13,7 +13,7 @@ const Hero = () => {
                         <Row className='hero-logo justify-content-center'>
                             <div className='text-center'>
                                 <a href="#">
-                                    <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697307692/uzu2gdul3daxcgotqi5o.png" alt="" />
+                                    <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o" alt="" />
                                     <h3><span>INSTRU</span>STERIL</h3>
                                 </a>
                             </div>

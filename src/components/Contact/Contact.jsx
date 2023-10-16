@@ -23,8 +23,8 @@ const Contact = () => {
                     <Col xs='12' lg='12' className='contact-title text-center'>
 
                         <h1>Contacto</h1>
-                        <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697411333/ynpdtsaqljmrrf3iuuwh.png" alt="" />618 069 336</h2>
-                        <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697411333/sfqupboic0b9xzboktab.png" alt="" />info@instrusteril.es</h2>
+                        <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/ynpdtsaqljmrrf3iuuwh" alt="" />618 069 336</h2>
+                        <h2><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/sfqupboic0b9xzboktab" alt="" />info@instrusteril.es</h2>
 
                         <div>
                             <button onClick={openModal} className="btn mt-4 ">

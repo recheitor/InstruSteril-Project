@@ -10,7 +10,7 @@ const OurServices = () => {
 
                     <Col xs='12' lg='5' className='text-center'>
                         <div className='services-img '>
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697384156/lborfgkjr5elvlowtgqo.png" alt="" />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/lborfgkjr5elvlowtgqo" alt="" />
 
                         </div>
                         <div className='services-text d-flex flex-column justify-content-center align-items-center'>
@@ -24,7 +24,7 @@ const OurServices = () => {
                     </Col>
                     <Col xs='12' lg='5' className='text-center'>
                         <div className='services-img '>
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697384156/qp3eptxlvswmjmk6crxo.png" alt="" />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/qp3eptxlvswmjmk6crxo" alt="" />
                         </div>
                         <div className='services-text d-flex flex-column justify-content-center align-items-center'>
                             <h3>REVISIÓN Y REPOSICIÓN</h3>
@@ -36,7 +36,7 @@ const OurServices = () => {
                     </Col>
                     <Col xs='12' lg='5' className='text-center'>
                         <div className='services-img '>
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697384156/lwrkbe7ckfw6udwst1xh.png" alt="" />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/lwrkbe7ckfw6udwst1xh" alt="" />
                         </div>
                         <div className='services-text d-flex flex-column justify-content-center align-items-center'>
                             <h3>ESTERILIZADO Y
@@ -52,7 +52,7 @@ const OurServices = () => {
                     </Col>
                     <Col xs='12' lg='5' className='text-center'>
                         <div className='services-img '>
-                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697384156/gxxyznbssiusuz9o763x.png" alt="" />
+                            <img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/gxxyznbssiusuz9o763x" alt="" />
                         </div>
                         <div className='services-text d-flex flex-column justify-content-center align-items-center'>
                             <h3>ENTREGA</h3>
