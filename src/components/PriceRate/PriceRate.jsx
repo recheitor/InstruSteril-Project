@@ -9,7 +9,7 @@ const PriceRate = () => {
                     <Row className="price-rate justify-content-center">
                         <Col lg="6" xs="12" className="price-rate-img">
                             <img
-                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/v1697453845/p77nw2wqxyapbegxy5ja.png"
+                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/p77nw2wqxyapbegxy5ja"
                                 alt="Image of medical instruments"
                                 role="img"
                             />
