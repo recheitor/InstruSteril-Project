@@ -2,14 +2,3 @@ body {
     /* overflow-x: hidden !important; */
     background: linear-gradient(to right, #ccddfc, #eff5ff 70%)
 }
-
-body {
-    background: url("https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/t7zngvn1iwu1hdjw012o") center/cover no-repeat;
-    height: 92vh;
-}
-
-@media screen and (max-width: 600px) {
-    body {
-        height: 600px;
-    }
-}

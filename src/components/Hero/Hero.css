@@ -1,7 +1,12 @@
-.hero {
-    padding-bottom: 70px;
+.hero-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/t7zngvn1iwu1hdjw012o") center/cover no-repeat;
+    height: 100vh;
+    background-position: top;
+    padding-bottom: 100px;
 }
-
 
 .hero-title h1 {
     font-family: 'Josefin Sans', sans-serif;
@@ -11,17 +16,16 @@
 
 .hero-title {
     border-radius: 15px;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
-    z-index: -1;
     background-color: rgba(216, 216, 216, 0.5);
     backdrop-filter: blur(3px);
 }
 
 
 .hero-logo img {
-    width: 80px;
+    width: 120px;
 }
 
 .hero-logo h3 {
@@ -40,31 +44,28 @@
     font-weight: 700;
 }
 
+
+
 @media screen and (max-width: 991px) {
-
-
-    .hero {
-        padding-bottom: 0px;
-        padding-top: 30px;
-    }
-
     .hero-title h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .hero-title {
-        padding-top: 30px;
-        padding-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
 
     }
+}
 
+@media screen and (max-width: 500px) {
+    .hero-title h1 {
+        font-size: 28px;
+    }
+}
 
-
-
-
-
-
-
-
-
+@media screen and (max-width: 400px) {
+    .hero-title h1 {
+        font-size: 24px;
+    }
 }
