@@ -16,9 +16,9 @@ const Hero = () => {
                                             src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o"
                                             alt="InstruSteril Logo"
                                         />
-                                        <h3 aria-label="InstruSteril">
+                                        <h2 aria-label="InstruSteril">
                                             <span>INSTRU</span>STERIL
-                                        </h3>
+                                        </h2>
                                     </div>
                                 </section>
                             </Col>

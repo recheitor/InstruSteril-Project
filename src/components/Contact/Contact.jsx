@@ -54,7 +54,7 @@ const Contact = () => {
                                 </h2>
 
                                 <div>
-                                    <button onClick={openModal} className="btn mt-4" aria-label="Contactar ahora">
+                                    <button onClick={openModal} className="btn mt-4">
                                         <span role="img" aria-label="Email"><img src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/gx9au2t9mv0vxigps5np" alt="Contact now icon" /></span> Contactar ahora
                                     </button>
                                     <Modal centered show={showModal} onHide={closeModal} size="lg">

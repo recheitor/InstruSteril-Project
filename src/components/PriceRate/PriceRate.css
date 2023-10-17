@@ -82,6 +82,7 @@
     }
 
     .price-rate h4 {
+        padding-left: 0px;
         font-size: 40px;
         padding-top: 10px;
         text-align: center;
