@@ -15,11 +15,11 @@ const PriceRate = () => {
                             />
                         </Col>
                         <Col lg="6" xs="12">
-                            <h3>TARIFA INSTRUSTERIL</h3>
+                            <h3>Tarifa InstruSteril</h3>
                             <h4>30€</h4>
                             <p>El precio esta estipulado por servicio
                                 puesto que depende de la actividad
-                                de nuestros clientes, a final de cada
+                                de nuestros clientes, al final de cada
                                 mes InstruSteril emite la factura
                                 correspondiente a los servicios
                                 realizados mensualmente.</p>
