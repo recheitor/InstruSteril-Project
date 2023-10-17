@@ -8,7 +8,6 @@ const Navigation = () => {
     const [scrolling, setScrolling] = useState(false);
 
     useEffect(() => {
-        // Function to handle the scroll event
         function handleScroll() {
             if (window.scrollY > 200) {
                 setScrolling(true);
@@ -17,18 +16,12 @@ const Navigation = () => {
             }
         }
 
-        // Add the scroll event listener when the component mounts
         window.addEventListener('scroll', handleScroll);
 
-        // Remove the event listener when the component unmounts
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
-
-
-
 
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,12 +38,13 @@ const Navigation = () => {
                     <Row className={`navi justify-content-between align-items-center ${scrolling ? 'scroll-down' : ''}`} role="navigation" aria-label="Main Navigation">
                         <Col xs="2" lg="3" className="text-start">
                             <div className="nav-head">
-                                <a href="#">
-
-                                    <h2 aria-label="InstruSteril">
-                                        <span>INSTRU</span>STERIL
-                                    </h2>
-                                </a>
+                                <div className="nav-head-link">
+                                    <a href="#">
+                                        <h2 aria-label="InstruSteril">
+                                            <span>INSTRU</span>STERIL
+                                        </h2>
+                                    </a>
+                                </div>
                             </div>
                         </Col>
                     </Row>

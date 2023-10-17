@@ -275,6 +275,10 @@
     width: 100vw;
 }
 
+.nav-head-link {
+    width: fit-content;
+}
+
 .nav-head h2 {
     padding-top: 20px;
     font-family: 'Josefin Sans', sans-serif;
@@ -287,16 +291,9 @@
     font-weight: 700;
 }
 
-.nav-head img {
-    width: 70px;
-}
-
-
-
 .navi a {
     text-decoration: none;
 }
-
 
 .nav {
     visibility: hidden;
@@ -320,10 +317,6 @@
         top: 20px;
         right: 25px;
 
-    }
-
-    .nav-head img {
-        width: 50px;
     }
 
     .nav ul li a {
