@@ -1,14 +1,11 @@
 
 import './ContactForm.css'
-import { Col, Row, Modal } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import { useForm, ValidationError } from '@formspree/react';
 import { useState } from 'react';
 
-
-
-
-
 const ContactForm = () => {
+
     const [state, handleSubmit] = useForm("maygaljw");
     const [hasContacted, setHasContacted] = useState(undefined)
     if (!hasContacted && state.succeeded) {

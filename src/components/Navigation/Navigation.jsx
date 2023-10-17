@@ -1,5 +1,4 @@
-import { Col, Container, Row, } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Col, Row, } from 'react-bootstrap'
 import './Navigation.css'
 import { useState } from 'react'
 
@@ -26,7 +25,6 @@ const Navigation = () => {
                     </div>
                 </Col>
             </Row>
-
             <input
                 className="menu-icon"
                 type="checkbox"
@@ -83,7 +81,6 @@ const Navigation = () => {
                 </ul>
             </nav>
             <div className="overlay" role="presentation"></div>
-
         </>
     )
 }

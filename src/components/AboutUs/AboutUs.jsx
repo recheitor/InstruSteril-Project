@@ -1,6 +1,5 @@
 import { Row, Col, Container } from 'react-bootstrap'
 import './AboutUs.css'
-import { Link } from 'react-router-dom'
 const AboutUs = () => {
     return (
         <>
@@ -30,8 +29,6 @@ const AboutUs = () => {
                     </Row>
                 </section>
             </Container>
-
-
         </>
     )
 }

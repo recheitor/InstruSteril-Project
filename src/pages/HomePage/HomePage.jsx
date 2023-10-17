@@ -1,10 +1,10 @@
 import Hero from '../../components/Hero/Hero'
 import AboutUs from '../../components/AboutUs/AboutUs'
-
 import './HomePage.css'
 import OurServices from '../../components/OurServices/OurServices'
 import PriceRate from '../../components/PriceRate/PriceRate'
 import Contact from '../../components/Contact/Contact'
+
 const HomePage = () => {
     return (
         <>
@@ -25,7 +25,6 @@ const HomePage = () => {
                     <Contact />
                 </section>
             </main>
-
         </>
     )
 }

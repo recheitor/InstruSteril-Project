@@ -1,6 +1,5 @@
 import { Row, Col, Container } from 'react-bootstrap'
 import './PriceRate.css'
-import { Link } from 'react-router-dom'
 const PriceRate = () => {
     return (
         <>

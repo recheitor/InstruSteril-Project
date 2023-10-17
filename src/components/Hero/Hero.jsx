@@ -1,6 +1,5 @@
 import { Row, Col, Container } from 'react-bootstrap'
 import './Hero.css'
-import { Link } from 'react-router-dom'
 const Hero = () => {
     return (
         <>
@@ -13,15 +12,13 @@ const Hero = () => {
                                 <h1>de instrumental quirúrgico</h1>
                                 <section className="hero-logo" aria-label="Hero Logo">
                                     <div className="text-center">
-                                        <a href="#">
-                                            <img
-                                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o"
-                                                alt="InstruSteril Logo"
-                                            />
-                                            <h3 aria-label="InstruSteril">
-                                                <span>INSTRU</span>STERIL
-                                            </h3>
-                                        </a>
+                                        <img
+                                            src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o"
+                                            alt="InstruSteril Logo"
+                                        />
+                                        <h3 aria-label="InstruSteril">
+                                            <span>INSTRU</span>STERIL
+                                        </h3>
                                     </div>
                                 </section>
                             </Col>
@@ -29,7 +26,6 @@ const Hero = () => {
                     </section>
                 </Container>
             </div>
-
         </>
     )
 }
