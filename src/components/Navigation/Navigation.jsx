@@ -10,7 +10,7 @@ const Navigation = () => {
     useEffect(() => {
         // Function to handle the scroll event
         function handleScroll() {
-            if (window.scrollY > 100) {
+            if (window.scrollY > 200) {
                 setScrolling(true);
             } else {
                 setScrolling(false);
@@ -42,15 +42,10 @@ const Navigation = () => {
 
             <div>
                 <div >
-                    <Row className={`navi justify-content-between align-items-center ${scrolling ? 'white-background' : ''}`} role="navigation" aria-label="Main Navigation">
+                    <Row className={`navi justify-content-between align-items-center ${scrolling ? 'scroll-down' : ''}`} role="navigation" aria-label="Main Navigation">
                         <Col xs="2" lg="3" className="text-start">
                             <div className="nav-head">
                                 <a href="#">
-                                    {/* <img
-                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o"
-                                alt="InstruSteril Logo"
-                                aria-label="InstruSteril"
-                            /> */}
 
                                     <h2 aria-label="InstruSteril">
                                         <span>INSTRU</span>STERIL
