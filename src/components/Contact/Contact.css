@@ -1,3 +1,11 @@
+.contact-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 206, 255);
+    background-position: top;
+}
+
 .contact {
     width: 100vw;
     height: 500px;
@@ -19,7 +27,7 @@
 
 .contact-title {
     position: relative;
-    background: linear-gradient(to right, #cddeff 10%, #ffffff 100%);
+    /* background: linear-gradient(to right, #b5b5b5 10%, #eff5ff 100%); */
     backdrop-filter: blur(3px);
 }
 

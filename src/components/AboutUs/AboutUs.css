@@ -67,6 +67,14 @@
         text-align: center;
     }
 
+    .about-us-img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        height: 300px;
+    }
 
     .about-us img {
         width: 100%;

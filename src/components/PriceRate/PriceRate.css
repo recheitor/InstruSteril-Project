@@ -89,6 +89,15 @@
         color: rgb(17, 55, 137);
     }
 
+    .price-rate-img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        height: 300px;
+    }
+
     .price-rate img {
         width: 100%;
         border-bottom-left-radius: 0px;

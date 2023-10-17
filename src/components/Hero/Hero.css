@@ -46,6 +46,7 @@
 
 
 
+
 @media screen and (max-width: 991px) {
     .hero-title h1 {
         font-size: 35px;
@@ -54,7 +55,6 @@
     .hero-title {
         padding-top: 50px;
         padding-bottom: 50px;
-
     }
 }
 
@@ -67,5 +67,26 @@
 @media screen and (max-width: 400px) {
     .hero-title h1 {
         font-size: 24px;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .hero {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-height: 520px) {
+    .hero-title h1 {
+        font-size: 28px;
+    }
+
+    .hero {
+        padding-top: 160px;
+    }
+
+    .hero-title {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
