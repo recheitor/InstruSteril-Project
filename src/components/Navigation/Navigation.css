@@ -1,98 +1,3 @@
-/* [type="checkbox"]:checked,
-[type="checkbox"]:not(:checked) {
-    position: absolute;
-    left: -9999px;
-}
-
-.nav-title img {
-    width: 80px;
-}
-
-.nav-title h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 200;
-    font-size: 30px;
-}
-
-
-.nav-title span {
-    color: #3a3a3a;
-    font-weight: 700;
-}
-
-.nav-lg {
-    position: fixed;
-    z-index: 1;
-    background-color: white;
-    width: 100%;
-}
-
-
-
-.nav-lg a {
-    text-decoration: none;
-}
-
-
-.nav-sections {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    position: fixed;
-    right: 0;
-}
-
-.nav-sections a {
-    color: rgb(25, 44, 190);
-    position: relative;
-    transition: color 0.3s;
-} */
-
-/*--------underline color when hover over the menu-lg -----------*/
-/* .nav-sections a::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #0b265c;
-    transition: width 0.3s;
-}
-
-.nav-sections a:hover::before {
-    width: 100%;
-} */
-
-/*--------word color when hover over the menu-lg -----------*/
-/* .nav-sections a:hover {
-    color: #16051b;
-}
-
-.nav,
-.nav-label {
-    visibility: hidden;
-    display: none;
-} */
-
-.scrolled-down a,
-.scrolled-down span,
-.scrolled-down h3 {
-    color: #fff;
-}
-
-.scrolled-down img {
-    filter: brightness(100);
-}
-
-
-
-
-
-
-
-
-
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
     position: absolute;
@@ -367,6 +272,7 @@
 
 .navi {
     position: fixed;
+    z-index: 2;
 }
 
 .navi a {
@@ -416,24 +322,10 @@
     z-index: 9;
 }
 
-.nav,
-.navi-label {
-
+.nav {
     visibility: hidden;
     display: none;
 }
-
-.logo-contact img {
-    width: 30%;
-    filter: brightness(0);
-}
-
-
-
-
-
-
-
 
 @media screen and (max-width: 991px) {
 
