@@ -44,10 +44,9 @@
     left: 0;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
-    border-radius: 2px;
-    transition: border-width 100ms 1000ms ease,
+    transition:
         top 100ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
-        height 100ms 1100ms cubic-bezier(0.23, 1, 0.32, 1);
+        height 100ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
 }
 
 .menu-icon:checked+label:after,
@@ -135,7 +134,7 @@
     height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
-    z-index: 1;
+    z-index: 3;
     display: none;
 }
 
@@ -203,7 +202,7 @@
 
 .nav ul li a:hover {
     text-decoration: none;
-    color: #5e6897;
+    color: #ffffff;
 }
 
 .nav ul li a:after {
@@ -215,7 +214,7 @@
     margin-top: 2vh;
     width: 0;
     left: 0;
-    background-color: #5e6897;
+    background-color: #47485b;
     opacity: 0.8;
     transition: width 250ms linear;
 }
@@ -306,6 +305,9 @@
     border-bottom: 3px solid rgb(48, 48, 48);
 }
 
+.scroll-down:checked+label:before {
+    border-width: 0;
+}
 
 .scroll-down:checked+label:after,
 .scroll-down:not(:checked)+label:after,
