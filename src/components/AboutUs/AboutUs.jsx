@@ -8,7 +8,7 @@ const AboutUs = () => {
                     <Row className="about-us justify-content-center">
                         <Col lg="6" xs="12" className="about-us-img">
                             <img
-                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/lr5yfnojzvgkuinxnyqr"
+                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/jvbqwpivpnfxkim0unud"
                                 alt="Image of our team"
                                 role="img"
                             />

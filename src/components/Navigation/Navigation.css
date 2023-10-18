@@ -44,9 +44,10 @@
     left: 0;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
+    border-radius: 2px;
     transition: border-width 100ms 1000ms ease,
         top 100ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
-        height 100ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
+        height 100ms 1100ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .menu-icon:checked+label:after,
@@ -202,7 +203,7 @@
 
 .nav ul li a:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: #5e6897;
 }
 
 .nav ul li a:after {
@@ -214,7 +215,7 @@
     margin-top: 2vh;
     width: 0;
     left: 0;
-    background-color: #47485b;
+    background-color: #5e6897;
     opacity: 0.8;
     transition: width 250ms linear;
 }
