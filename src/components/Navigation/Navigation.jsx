@@ -51,7 +51,7 @@ const Navigation = () => {
 
 
                     <input
-                        className="menu-icon"
+                        className={`menu-icon ${scrolling ? 'scroll-down' : ''}`}
                         type="checkbox"
                         id="menu-icon"
                         name="menu-icon"
