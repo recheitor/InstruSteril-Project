@@ -1,6 +1,6 @@
 import { Row, Col, Container } from 'react-bootstrap'
 import './Hero_copy.css'
-import ScrollingWords from '../Scrolleffect/Scroll'
+import ScrollingWords from './../Scroll/Scroll'
 const Hero = () => {
     return (
         <>
