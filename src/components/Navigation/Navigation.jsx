@@ -1,5 +1,5 @@
 import { Col, Row, } from 'react-bootstrap'
-import './Navigation.css'
+// import './Navigation.css'
 import { useEffect, useState } from 'react'
 const Navigation = () => {
 

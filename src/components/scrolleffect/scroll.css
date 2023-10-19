@@ -1,12 +1,13 @@
 .scrolling-words {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 10vh;
     /* Adjust the height as needed */
     overflow: hidden;
-    margin-bottom: 400px;
-    background: linear-gradient(to bottom, #ccddfc, #ffffff 70%)
+    margin-bottom: 40px;
 }
 
 .scrolling-word {
@@ -14,6 +15,20 @@
     transform: translateY(100%);
     transition: opacity 1s, transform 1s;
     position: absolute;
+}
+
+.scrolling-word p {
+    background: linear-gradient(to right, #004f26, #359161);
+    -webkit-background-clip: text;
+    /* For webkit-based browsers like Chrome and Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+.scrolling-word svg {
+    width: 20px;
+    margin-right: 7px;
+    margin-bottom: 19px;
 }
 
 .active {

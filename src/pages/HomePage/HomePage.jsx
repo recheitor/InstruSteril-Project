@@ -3,6 +3,7 @@ import AboutUs from '../../components/AboutUs/AboutUs'
 import './HomePage.css'
 import OurServices from '../../components/OurServices/OurServices'
 import PriceRate from '../../components/PriceRate/PriceRate'
+import Hero_copy from '../../components/Hero_copy/Hero_copy'
 import Contact from '../../components/Contact/Contact'
 
 const HomePage = () => {
@@ -10,7 +11,7 @@ const HomePage = () => {
         <>
             <main>
                 <section id="hero" aria-label="Hero Section">
-                    <Hero />
+                    <Hero_copy />
                 </section>
                 <section id="servicios" aria-label="Services Section">
                     <OurServices />

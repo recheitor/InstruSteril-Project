@@ -1,5 +1,5 @@
 import { Row, Col, Container } from 'react-bootstrap'
-import './Hero.css'
+// import './Hero.css'
 const Hero = () => {
     return (
         <>
