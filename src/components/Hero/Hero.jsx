@@ -1,31 +1,54 @@
-import { Row, Col, Container } from 'react-bootstrap'
-// import './Hero.css'
+import { Row, Col, Container, Modal } from 'react-bootstrap'
+import './Hero.css'
+import ScrollingWords from './../ScrollingWords/ScrollingWords'
+import { useState } from 'react';
+import ContactForm from '../ContactForm/ContactForm';
+
+
+
 const Hero = () => {
+
+    const [showModal, setShowModal] = useState(false);
+
+    const openModal = () => setShowModal(true);
+    const closeModal = () => setShowModal(false);
+
     return (
         <>
             <div className='hero-background '>
-                <Container>
-                    <section className="hero" aria-label="Hero Section">
-                        <Row className="justify-content-center">
-                            <Col xs="11" lg="10" className="hero-title text-center">
-                                <h1>Esterilización y reposición</h1>
-                                <h1>de instrumental quirúrgico</h1>
-                                <section className="hero-logo" aria-label="Hero Logo">
-                                    <div className="text-center">
-                                        <img
-                                            src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o"
-                                            alt="InstruSteril Logo"
-                                        />
-                                        <h2 aria-label="InstruSteril">
-                                            <span>INSTRU</span>STERIL
-                                        </h2>
-                                    </div>
-                                </section>
-                            </Col>
-                        </Row>
-                    </section>
-                </Container>
+
+                <section aria-label="Hero Section">
+                    <Row className="hero justify-content-center">
+                        <Col xs="11" lg="6" className="hero-title text-center">
+                            <h1>Esterilización y reposición</h1>
+                            <h1>de instrumental quirúrgico</h1>
+
+                            <ScrollingWords />
+                            <div className='contact-us-form-button'>
+                                <Modal centered show={showModal} onHide={closeModal} size="lg">
+                                    <Modal.Header closeButton />
+                                    <Modal.Body>
+                                        <ContactForm />
+                                    </Modal.Body>
+                                </Modal>
+                                <a onClick={openModal} >
+                                    PRUEBA GRATUITA
+                                </a>
+                            </div>
+
+                        </Col>
+                        <Col xs="11" lg="6" className="hero-title">
+                            <section className="hero-logo" aria-label="Hero Logo">
+                                <img
+                                    src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/t7zngvn1iwu1hdjw012o"
+                                    alt="InstruSteril Background"
+                                />
+                            </section>
+                        </Col>
+                    </Row>
+                </section>
             </div>
+
         </>
     )
 }

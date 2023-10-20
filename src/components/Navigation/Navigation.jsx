@@ -1,7 +1,7 @@
 import { Col, Row, } from 'react-bootstrap'
-// import './Navigation.css'
+import './Navigation.css'
 import { useEffect, useState } from 'react'
-const Navigation = () => {
+const Navigation_copy = () => {
 
 
 
@@ -38,7 +38,11 @@ const Navigation = () => {
                     <Row className={`navi justify-content-between align-items-center ${scrolling ? 'scroll-down' : ''}`} role="navigation" aria-label="Main Navigation">
                         <Col xs="2" lg="3" className="text-start">
                             <div className="nav-head">
-                                <div className="nav-head-link">
+                                <div className="nav-head-link d-flex">
+                                    <img
+                                        src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o"
+                                        alt="InstruSteril Logo"
+                                    />
                                     <a href="#">
                                         <h2 aria-label="InstruSteril">
                                             <span>INSTRU</span>STERIL
@@ -114,4 +118,4 @@ const Navigation = () => {
         </>
     )
 }
-export default Navigation
+export default Navigation_copy

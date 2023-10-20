@@ -32,7 +32,7 @@ const OurServices = () => {
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
                             <h3 aria-label="Service Title">REVISIÓN Y REPOSICIÓN</h3>
                             <p aria-label="Service Description">
-                                Nos encargamos de revisar el instrumental en el proceso de lavado, si detectamos anomalías, podríamos reemplazar la pieza deteriorada. Así siempre estaría el instrumental completo.
+                                Nos encargamos de la revisión del instrumental. En el proceso de limpieza manual, lubricamos las piezas móviles con aceites especiales para nuestro autoclave, y así alargamos la durabilidad del instrumental. En caso de anomalías, reemplazamos la pieza dañada.
                             </p>
                         </div>
                     </Col>

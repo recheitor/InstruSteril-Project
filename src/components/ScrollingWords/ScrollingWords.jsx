@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-import './Scroll.css'
+import './ScrollingWords.css'
 
 
 const ScrollingWords = () => {
-    const words = ["Rápido", "Fiable", "Sin complicaciones"];
+    const words = ["Rapidez", "Precisión", "Calidad", "En Valencia"];
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
     useEffect(() => {

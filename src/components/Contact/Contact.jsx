@@ -1,4 +1,4 @@
-import { Row, Col, Container, Modal, Button } from 'react-bootstrap'
+import { Row, Col, Container, Modal } from 'react-bootstrap'
 import './Contact.css'
 import { useState } from 'react';
 import ContactForm from '../ContactForm/ContactForm';

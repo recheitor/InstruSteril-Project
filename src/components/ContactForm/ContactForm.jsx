@@ -30,7 +30,15 @@ const ContactForm = () => {
                                 aria-label="Tu email"
                             />
                             <ValidationError prefix="Email" field="email" errors={state.errors} />
-
+                            <input
+                                id="phone"
+                                type="phone number"
+                                name="phone"
+                                className="form-style mt-3"
+                                placeholder="Tu teléfono"
+                                aria-label="Tu teléfono"
+                            />
+                            <ValidationError prefix="Phone" field="phone" errors={state.errors} />
                             <textarea
                                 id="message"
                                 name="message"

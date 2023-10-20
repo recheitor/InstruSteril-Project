@@ -2,7 +2,7 @@ import AboutUs from '../../components/AboutUs/AboutUs'
 import './HomePage.css'
 import OurServices from '../../components/OurServices/OurServices'
 import PriceRate from '../../components/PriceRate/PriceRate'
-import Hero_copy from '../../components/Hero_copy/Hero_copy'
+import Hero from '../../components/Hero/Hero'
 import Contact from '../../components/Contact/Contact'
 
 const HomePage = () => {
@@ -10,7 +10,7 @@ const HomePage = () => {
         <>
             <main>
                 <section id="hero" aria-label="Hero Section">
-                    <Hero_copy />
+                    <Hero />
                 </section>
                 <section id="servicios" aria-label="Services Section">
                     <OurServices />
