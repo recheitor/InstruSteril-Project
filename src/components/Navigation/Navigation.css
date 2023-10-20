@@ -212,7 +212,7 @@
 
 .nav ul li a:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: #529aff;
 }
 
 .nav ul li a:after {
@@ -224,7 +224,7 @@
     margin-top: 2vh;
     width: 0;
     left: 0;
-    background-color: #47485b;
+    background-color: #6ba9ff;
     opacity: 0.8;
     transition: width 250ms linear;
 }
