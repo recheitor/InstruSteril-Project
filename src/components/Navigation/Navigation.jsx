@@ -9,7 +9,7 @@ const Navigation_copy = () => {
 
     useEffect(() => {
         function handleScroll() {
-            if (window.scrollY > 200) {
+            if (window.scrollY > 100) {
                 setScrolling(true);
             } else {
                 setScrolling(false);
