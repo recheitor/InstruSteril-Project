@@ -31,9 +31,9 @@ const Hero = () => {
                                         <ContactForm />
                                     </Modal.Body>
                                 </Modal>
-                                <a onClick={openModal} >
+                                <button onClick={openModal} >
                                     PRUEBA GRATUITA
-                                </a>
+                                </button>
                             </div>
 
                         </Col>

@@ -24,7 +24,7 @@
     margin-bottom: 20px;
 }
 
-.contact-us-form-button a {
+.contact-us-form-button button {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     text-decoration: none;
@@ -61,7 +61,7 @@
     font-size: 30px;
 }
 
-.hero-logo a {
+.hero-logo button {
     text-decoration: none;
 }
 
