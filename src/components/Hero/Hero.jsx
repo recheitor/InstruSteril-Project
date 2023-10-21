@@ -32,7 +32,7 @@ const Hero = () => {
                                     </Modal.Body>
                                 </Modal>
                                 <button onClick={openModal} >
-                                    PRUEBA GRATUITA
+                                    TE LLAMAMOS
                                 </button>
                             </div>
 

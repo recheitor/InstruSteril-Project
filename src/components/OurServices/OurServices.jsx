@@ -17,7 +17,9 @@ const OurServices = () => {
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
                             <h3 aria-label="Service Title">RECOGIDA</h3>
                             <p aria-label="Service Description">
-                                Directamente en tu clínica, dentro del horario acordado para no influir en la actividad diaria de la consulta.
+                                Nos desplazamos hasta tu clínica para la recogida del instrumental. El horario será acordado
+                                previamente para no alterar la actividad diaria de la consulta. Recogeremos el instrumental
+                                utilizado en bolsas proporcionadas por InstruSteril, identificadas con el nombre de la clínica de origen.
                             </p>
                         </div>
                     </Col>
@@ -32,7 +34,7 @@ const OurServices = () => {
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
                             <h3 aria-label="Service Title">REVISIÓN Y REPOSICIÓN</h3>
                             <p aria-label="Service Description">
-                                Nos encargamos de la revisión del instrumental. En el proceso de limpieza manual, lubricamos las piezas móviles con aceites especiales para nuestro autoclave, y así alargamos la durabilidad del instrumental. En caso de anomalías, reemplazamos la pieza dañada.
+                                Nos encargamos de la revisión del instrumental. En el proceso de limpieza manual, lubricamos las piezas móviles con aceites especiales para nuestro autoclave, así alargamos la durabilidad del instrumental. En caso de anomalías, reemplazamos la pieza dañada.
                             </p>
                         </div>
                     </Col>

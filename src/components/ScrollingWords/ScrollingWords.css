@@ -4,15 +4,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 2vh;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 0px;
 }
 
 .scrolling-word {
     opacity: 0;
-    transform: translateY(100%);
-    transition: opacity 0.5s, transform 0.5s;
+    transform: translateY(20%);
+    transition: opacity 0.7s, transform 0.7s;
     position: absolute;
 }
 
@@ -23,11 +24,6 @@
     color: transparent;
 }
 
-.scrolling-word svg {
-    width: 20px;
-    margin-right: 7px;
-    margin-bottom: 19px;
-}
 
 .active {
     opacity: 1;
