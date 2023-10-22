@@ -45,7 +45,7 @@ const Hero = () => {
                                     className="big-image"
                                 />
                                 <img
-                                    src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/jbkcn8jupx6nc9ciwcqn"
+                                    src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/b1fo8gmzrwrlg7kuzwuq"
                                     alt="Alternate Photo"
                                     role="img"
                                     aria-label="Alternate Photo"
