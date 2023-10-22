@@ -19,7 +19,7 @@ const OurServices = () => {
                             <p aria-label="Service Description">
                                 Nos desplazamos hasta tu clínica para la recogida del instrumental. El horario será acordado
                                 previamente para no alterar la actividad diaria de la consulta. Recogeremos el instrumental
-                                utilizado en bolsas proporcionadas por InstruSteril, identificadas con el nombre de la clínica de origen.
+                                utilizado en paquetes proporcionados por InstruSteril, identificados con el nombre de la clínica de origen.
                             </p>
                         </div>
                     </Col>
