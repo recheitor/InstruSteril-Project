@@ -11,6 +11,7 @@ const PriceRate = () => {
                                 src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/p77nw2wqxyapbegxy5ja"
                                 alt="Image of medical instruments"
                                 role="img"
+                                loading="lazy"
                             />
                         </Col>
                         <Col lg="6" xs="12">

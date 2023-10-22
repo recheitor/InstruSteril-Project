@@ -12,6 +12,7 @@ const OurServices = () => {
                                 src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/lborfgkjr5elvlowtgqo"
                                 alt="Service Image"
                                 aria-label="Recogida"
+                                loading="lazy"
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
@@ -29,6 +30,7 @@ const OurServices = () => {
                                 src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/qp3eptxlvswmjmk6crxo"
                                 alt="Service Image"
                                 aria-label="Revisión y Reposición"
+                                loading="lazy"
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
@@ -44,6 +46,7 @@ const OurServices = () => {
                                 src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/lwrkbe7ckfw6udwst1xh"
                                 alt="Service Image"
                                 aria-label="Esterilizado y Empaquetado"
+                                loading="lazy"
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
@@ -59,6 +62,7 @@ const OurServices = () => {
                                 src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/gxxyznbssiusuz9o763x"
                                 alt="Service Image"
                                 aria-label="Entrega"
+                                loading="lazy"
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">

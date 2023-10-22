@@ -11,6 +11,7 @@ const AboutUs = () => {
                                 src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/oagen9poohek5baf4ber"
                                 alt="Image of our team"
                                 role="img"
+                                loading="lazy"
                             />
                         </Col>
                         <Col lg="6" xs="12">
