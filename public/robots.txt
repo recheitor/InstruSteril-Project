@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.instrusteril.es
+Sitemap: https://instrusteril.es/sitemap.xml
