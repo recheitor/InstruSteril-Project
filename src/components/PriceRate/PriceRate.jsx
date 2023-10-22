@@ -16,7 +16,7 @@ const PriceRate = () => {
                         </Col>
                         <Col lg="6" xs="12">
                             <h3>Tarifa InstruSteril</h3>
-                            <h4>30€</h4>
+                            <h4>35€</h4>
                             <p>El precio esta estipulado por servicio
                                 puesto que depende de la actividad
                                 de nuestros clientes, al final de cada
