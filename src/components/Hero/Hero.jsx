@@ -43,7 +43,6 @@ const Hero = () => {
                                     src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/t7zngvn1iwu1hdjw012o"
                                     alt="InstruSteril Background"
                                     className="big-image"
-                                    loading="lazy"
                                 />
                                 <img
                                     src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/b1fo8gmzrwrlg7kuzwuq"
@@ -51,7 +50,6 @@ const Hero = () => {
                                     role="img"
                                     aria-label="Alternate Photo"
                                     className="small-image"
-                                    loading="lazy"
                                 />
 
                             </section>
