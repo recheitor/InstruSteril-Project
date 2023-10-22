@@ -42,12 +42,23 @@ const Hero = () => {
                                 <img
                                     src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/t7zngvn1iwu1hdjw012o"
                                     alt="InstruSteril Background"
+                                    className="big-image"
                                 />
+                                <img
+                                    src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/jbkcn8jupx6nc9ciwcqn"
+                                    alt="Alternate Photo"
+                                    role="img"
+                                    aria-label="Alternate Photo"
+                                    className="small-image"
+                                />
+
                             </section>
+
+
                         </Col>
                     </Row>
                 </section>
-            </div>
+            </div >
 
         </>
     )
