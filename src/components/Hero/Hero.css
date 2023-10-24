@@ -101,9 +101,8 @@
 
 @media screen and (max-width: 991px) {
     .hero-logo img {
-        width: 85%;
-        border-radius: 20px;
-        margin-right: 0px !important;
+        width: 280px;
+        margin: 0 !important;
     }
 
     .hero-logo {
@@ -118,6 +117,13 @@
         padding-top: 0px !important;
         padding-bottom: 20px !important
     }
+
+
+
+    .hero {
+        padding-top: 100px;
+    }
+
 }
 
 
@@ -130,11 +136,15 @@
 
     .hero {
         padding-top: 180px;
-        padding-bottom: 30px !important
     }
 
     .hero-logo img {
-        margin-top: 30px !important
+        width: 280px;
+        margin-top: 30px !important;
+    }
+
+    .hero-background {
+        margin-bottom: 250px !important
     }
 
 
@@ -168,6 +178,7 @@
 
 }
 
+/* 
 @media screen and (max-height: 680px) {
     .hero {
         padding-top: 100px;
@@ -178,7 +189,7 @@
         margin: 0 !important;
 
     }
-}
+} */
 
 @media screen and (max-width: 400px) {
 
