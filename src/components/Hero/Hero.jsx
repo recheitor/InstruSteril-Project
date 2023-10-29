@@ -20,8 +20,7 @@ const Hero = () => {
                 <section aria-label="Hero Section">
                     <Row className="hero justify-content-center">
                         <Col xs="11" lg="6" className="hero-title text-center">
-                            <h1>Esterilización y reposición</h1>
-                            <h1>de instrumental quirúrgico</h1>
+                            <h1>Esterilización y reposición<br />de instrumental quirúrgico</h1>
 
                             <ScrollingWords />
                             <div className='contact-us-form-button'>
