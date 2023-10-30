@@ -59,7 +59,7 @@ const ContactForm = () => {
                             </button>
                         </form>
                     ) : (
-                        <div className="form-style pt-2 pb-5" aria-label="Mensaje enviado">
+                        <div className="form-style pt-3 pb-3" style={{ height: '100%' }} aria-label="Mensaje enviado">
                             {hasContacted}
                         </div>
                     )}
