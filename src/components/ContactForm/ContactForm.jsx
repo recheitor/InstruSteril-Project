@@ -6,11 +6,11 @@ import { useState } from 'react';
 
 const ContactForm = () => {
 
-    const [state, handleSubmit] = useForm("maygaljw");
+    const [state, handleSubmit] = useForm("mwkdygwz");
     const [hasContacted, setHasContacted] = useState(undefined)
     if (!hasContacted && state.succeeded) {
         setHasContacted(
-            'Se ha enviado tu mensaje. Te contactaré lo antes posible :)'
+            'Se ha enviado tu mensaje. Te contactaremos con la mayor brevedad posible. Gracias.'
         )
     }
 
