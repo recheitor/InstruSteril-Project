@@ -24,22 +24,22 @@ const Contact = () => {
                             <Col xs="12" lg="12" className="contact-title text-center">
                                 <h1>Contacto</h1>
                                 <h2>
-                                    <a href='https://api.whatsapp.com/send?phone=618069336'>
+                                    <a href='https://api.whatsapp.com/send?phone=624092966'>
                                         <img
                                             src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/ynpdtsaqljmrrf3iuuwh"
                                             alt="Phone Icon"
                                             className="contact-phone-icon"
                                         />
                                     </a>
-                                    <a href="tel:+34618069336">618 069 336</a>
+                                    <a href="tel:+34624092966">624 092 966</a>
                                 </h2>
                                 <h2>
-                                    <a href='https://api.whatsapp.com/send?phone=618069336'> <img
+                                    <a href='https://api.whatsapp.com/send?phone=624092966'> <img
                                         src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/er26xxeyhz5bysgkvpgw"
                                         alt="Whatsapp Icon"
                                         className="contact-whatsapp-icon"
                                     /></a>
-                                    <a href="https://api.whatsapp.com/send?phone=618069336">WhatsApp</a>
+                                    <a href="https://api.whatsapp.com/send?phone=624092966">WhatsApp</a>
                                 </h2>
 
                                 <h2>
